@@ -1,4 +1,4 @@
-const giftData = [
+const playerData = [
     {
         "id": 1,
         "name": "Erling Haaland",
@@ -88,8 +88,8 @@ const giftData = [
         "name": "Ederson",
         "number": "31",
         "image": "https://www.mancity.com/meta/media/pjbbld2d/ederson.png",
-        "position": "DEFENDER",
+        "position": "GOALKEEPER",
     },
 ]
 
-export default giftData
+export default playerData

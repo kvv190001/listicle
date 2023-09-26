@@ -1,7 +1,7 @@
 import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import giftData from '../data/gifts.js'
+import playerData from '../data/players.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -9,11 +9,11 @@ const __dirname = path.dirname(__filename)
 const router = express.Router()
 
 router.get('/', (req, res) => {
-    res.status(200).json(giftData)
+    res.status(200).json(playerData)
 })
 
-router.get('/:giftId', (req, res) => {
-    res.status(200).sendFile(path.resolve(__dirname, '../public/gift.html'))
+router.get('/:playerId', (req, res) => {
+    res.status(200).sendFile(path.resolve(__dirname, '../public/player.html'))
 })
 
 export default router
