@@ -59,7 +59,7 @@ const playerData = [
         "id": 9,
         "name": "Nathan Ake",
         "number": "6",
-        "image": "https://www.mancity.com/meta/media/4vwjsfxg/julian-alvarez.png",
+        "image": "https://www.mancity.com/meta/media/lyxf1bib/nathan-ake.png",
         "position": "DEFENDER",
     },
     {
